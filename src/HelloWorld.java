@@ -2,10 +2,9 @@ public class HelloWorld {
 
     public static void main(String[] args){
 
-    int nome = 10;
-    int nome2= 5;
-    int resultado = nome * nome2;
+        int count = 1; // Assign initial value
+        count = 2;     // Update to new value
 
-        System.out.println("o resultado da expressao eh: " + resultado);
+        System.out.println(count);
     }
 }
